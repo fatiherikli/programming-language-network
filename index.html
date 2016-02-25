@@ -218,7 +218,9 @@
                 var dx = graphSource.nodes[d.target].x - graphSource.nodes[d.source].x,
                     dy = graphSource.nodes[d.target].y - graphSource.nodes[d.source].y,
                     dr = Math.sqrt(dx * dx + dy * dy);
-                return "M" + graphSource.nodes[d.source].x + "," + graphSource.nodes[d.source].y + "A" + dr + "," + dr + " 0 0,1 " + graphSource.nodes[d.target].x + "," + graphSource.nodes[d.target].y;
+                return ("M" + graphSource.nodes[d.source].x + "," + graphSource.nodes[d.source].y + "A" 
+                        + dr + "," + dr + " 0 0,1 " + graphSource.nodes[d.target].x + "," 
+                        + graphSource.nodes[d.target].y);
             });
 
         node = svg
