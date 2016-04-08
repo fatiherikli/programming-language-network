@@ -1,0 +1,75 @@
+{% load example_app_tags %}
+{% load url from future %}
+{% load bootstrap3 %}
+
+
+    {% block static %}
+        {# jQuery #}
+        <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script> 
+
+        {# datatables.js #}
+        <script type="text/javascript" charset="utf8" src="http://cdn.datatables.net/1.10.0/js/jquery.dataTables.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="http://cdn.datatables.net/1.10.0/css/jquery.dataTables.css">
+
+        {# Bootstrap #}
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" />
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+        {# django-datatable-view #}
+        <script type="text/javascript" charset="utf8" src="{{ STATIC_URL }}js/datatableview.js"></script>
+
+        {# code highlighting #}
+        <link href="http://alexgorbatchev.com/pub/sh/current/styles/shCore.css" rel="stylesheet" type="text/css" />
+        <link href="http://alexgorbatchev.com/pub/sh/current/styles/shThemeDefault.css" rel="stylesheet" type="text/css" />
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shCore.js" type="text/javascript"></script>
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shAutoloader.js" type="text/javascript"></script>
+        <script src="http://alexgorbatchev.com/pub/sh/current/scripts/shBrushPython.js" type="text/javascript"></script>
+
+        {# test_project helpers #}
+        <style type="text/css">
+            .nav.sidebar a {
+                border-right: 1px solid white;
+                padding: 5px 10px;
+            }
+            .nav.sidebar a.active {
+                font-weight: bold;
+                background-color: #f0f0f0;
+                border-color: #428bca;
+            }
+            .nav.sidebar li.divider {
+                margin: 0.5em;
+                border-top: 1px solid #dfdfdf;
+            }
+        </style>
+        <script type="text/javascript">
+            $(function(){
+                SyntaxHighlighter.all();
+                var path = window.location.pathname;
+                $('.nav.sidebar > li > a[href="'+path+'"]').addClass("active");
+            });
+        </script>
+    {% endblock static %}
+
+
+{% block bootstrap3_content %}
+    <div class="container">
+        <h1>{% block title %}(no title){% endblock %}</h1>
+
+        <p>
+            <a href="{% url 'home' %}">home</a>
+            <a href="{% url 'formset_default' %}">formset</a>
+            <a href="{% url 'form_default' %}">form</a>
+            <a href="{% url 'form_by_field' %}">form_by_field</a>
+            <a href="{% url 'form_horizontal' %}">form_horizontal</a>
+            <a href="{% url 'form_inline' %}">form_inline</a>
+            <a href="{% url 'form_with_files' %}">form_with_files</a>
+            <a href="{% url 'pagination' %}">pagination</a>
+            <a href="{% url 'misc' %}">miscellaneous</a>
+        </p>
+
+        {% bootstrap_messages %}
+
+        {% block content %}(no content){% endblock %}
+    </div>
+
+    {% endblock %}
