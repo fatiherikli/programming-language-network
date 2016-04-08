@@ -98,7 +98,10 @@ MEDIA_URL = ''
 #when you do manage.py collectstatic, it will search for all the static files on your system and move them here. Your static file server is supposed to be mapped to this folder wherever it is located. Check it after running collectstatic and you'll find the directory structure django has built.
 STATIC_ROOT = BASE_DIR+'/static/'
 STATIC_ROOT = '/static/'
-STATIC_ROOT = BASE_DIR+'/static2/' #For nginx server Then run python manage.py collectstatic
+if PLATFORM=='linux':
+    STATIC_ROOT='/opt/bitnami/apps/django/django_projects/Project/Project/static/'
+    STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'static_root')
+print "STATIC_ROOT: "+STATIC_ROOT
 
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -110,8 +113,9 @@ STATICFILES_DIRS = (
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
     #'./static',
-    BASE_DIR+'/static/',
-    BASE_DIR+'/static/config_area/',
+    #BASE_DIR+'/static/',
+    #BASE_DIR+'/static/config_area/',
+    os.path.join(BASE_DIR, 'static', 'static_dirs'),
 )
 
 # List of finder classes that know how to find static files in
