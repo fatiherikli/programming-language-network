@@ -1,0 +1,4511 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-19">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+  <graph defaultedgetype="directed" mode="static">
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer">
+        <default>0</default>
+      </attribute>
+    </attributes>
+    <nodes>
+      <node id="ABC" label="ABC">
+        <attvalues>
+          <attvalue for="modularity_class" value="40"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-243.57945" y="-1024.2955" z="0.0"></viz:position>
+        <viz:color r="93" g="150" b="246"></viz:color>
+      </node>
+      <node id="Python" label="Python">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="31.75"></viz:size>
+        <viz:position x="120.29675" y="-621.1107" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="AS/400 Control Language" label="AS/400 Control Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="754.68274" y="455.78293" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Windows PowerShell" label="Windows PowerShell">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="242.05554" y="274.732" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Common Lisp" label="Common Lisp">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="-473.34055" y="-973.1142" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Dylan" label="Dylan">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="-393.5663" y="-750.6829" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Emacs Lisp" label="Emacs Lisp">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-536.5748" y="-1045.819" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="R" label="R">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-446.50305" y="-837.4486" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Clojure" label="Clojure">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="-40.273346" y="-943.35614" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="EuLisp" label="EuLisp">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="-585.0994" y="-918.92804" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="SubL" label="SubL">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-670.2519" y="-1086.4542" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Cadence SKILL" label="Cadence SKILL">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-527.34064" y="-1123.4323" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="ISLISP" label="ISLISP">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-693.0584" y="-1005.17645" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Ruby" label="Ruby">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="29.602942"></viz:size>
+        <viz:position x="-71.04534" y="-566.9539" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Goo" label="Goo">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-517.2315" y="-765.0981" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Eiffel" label="Eiffel">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="275.62393" y="-649.6155" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="D" label="D">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="23.161766"></viz:size>
+        <viz:position x="400.8458" y="-469.02762" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Scala" label="Scala">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="286.69852" y="-866.77515" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="C#" label="C#">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="25.308823"></viz:size>
+        <viz:position x="525.77893" y="-716.8999" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Java" label="Java">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="42.485294"></viz:size>
+        <viz:position x="437.51404" y="-588.7609" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Sather" label="Sather">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="581.99194" y="-817.93756" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Lisaac" label="Lisaac">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-52.287296" y="-314.60077" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Racket" label="Racket">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="-179.15855" y="-737.8792" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Factor" label="Factor">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="-911.28625" y="76.7215" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Concatenation" label="Concatenation">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-962.37646" y="140.5584" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Cat" label="Cat">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1041.3463" y="184.42932" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Icon" label="Icon">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="61.613926" y="-288.47687" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Joy" label="Joy">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="-1106.13" y="238.33653" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Trith" label="Trith">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1138.959" y="312.68527" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="V" label="V">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1180.1187" y="271.0057" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="PostScript" label="PostScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-992.6574" y="-82.43786" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Portable Document Format" label="Portable Document Format">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1064.234" y="-41.78225" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="STOS BASIC" label="STOS BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1225.0358" y="1476.3751" z="0.0"></viz:position>
+        <viz:color r="164" g="246" b="93"></viz:color>
+      </node>
+      <node id="AMOS" label="AMOS">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1303.882" y="1442.2279" z="0.0"></viz:position>
+        <viz:color r="164" g="246" b="93"></viz:color>
+      </node>
+      <node id="Smalltalk" label="Smalltalk">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="36.044117"></viz:size>
+        <viz:position x="-193.72673" y="-445.81702" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Falcon" label="Falcon">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="48.72941" y="-445.77374" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Fancy" label="Fancy">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-355.0731" y="-403.6501" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Objective-C" label="Objective-C">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="213.93037" y="-382.83112" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="PHP" label="PHP">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="353.80026" y="-328.65662" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Dart" label="Dart">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-167.42416" y="-293.67838" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="AppleScript" label="AppleScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-353.8749" y="-312.1344" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Groovy" label="Groovy">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="63.3028" y="-526.78546" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Logtalk" label="Logtalk">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-292.24954" y="-263.8725" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Ioke" label="Ioke">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="-384.90247" y="-444.5228" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Common Lisp Object System" label="Common Lisp Object System">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-278.25043" y="-357.8803" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Io" label="Io">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="-440.605" y="-271.69168" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="NewtonScript" label="NewtonScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-453.03888" y="-215.08334" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Self" label="Self">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="24.235294"></viz:size>
+        <viz:position x="-453.76807" y="-146.19678" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Perl 6" label="Perl 6">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="6.6716294" y="-679.5778" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="T" label="T">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-701.5368" y="-946.6103" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Ada" label="Ada">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="28.529411"></viz:size>
+        <viz:position x="657.27545" y="-450.62497" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="C++" label="C++">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="29.602942"></viz:size>
+        <viz:position x="488.7298" y="-376.44913" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="PL/SQL" label="PL/SQL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="751.61804" y="-512.9274" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="VHDL" label="VHDL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="797.0862" y="-475.9324" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Seed7" label="Seed7">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="772.07056" y="-402.68323" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Vala" label="Vala">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="556.1871" y="-633.7875" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Qore" label="Qore">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="337.29675" y="-254.40321" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="MiniD" label="MiniD">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="170.71432" y="-169.43063" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="DScript" label="DScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="353.22272" y="-428.7861" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="HyperTalk" label="HyperTalk">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="436.66473" y="184.13017" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="ECMAScript" label="ECMAScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="379.38434" y="-125.85546" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="LiveCode" label="LiveCode">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="468.02402" y="311.95193" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="JavaScript" label="JavaScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="27.455883"></viz:size>
+        <viz:position x="-34.70347" y="-404.869" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="Objective-J" label="Objective-J">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="152.33957" y="-330.61353" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="CoffeeScript" label="CoffeeScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-20.339952" y="-786.77435" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="ActionScript" label="ActionScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-58.346825" y="-247.54396" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="QML" label="QML">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-238.29086" y="-80.63624" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="JScript .NET" label="JScript .NET">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-175.91801" y="-202.1633" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="TypeScript" label="TypeScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-63.69465" y="-156.2944" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="Logo" label="Logo">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="-840.0318" y="-417.70154" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="Scratch" label="Scratch">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-1089.7444" y="-316.73544" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="NetLogo" label="NetLogo">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1006.9695" y="-440.33603" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="Etoys" label="Etoys">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="-1166.9403" y="-356.4467" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="KTurtle" label="KTurtle">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-942.5122" y="-377.09348" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="REBOL" label="REBOL">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="-711.46216" y="-304.95425" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Lua" label="Lua">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="26.382353"></viz:size>
+        <viz:position x="85.33614" y="-205.12437" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Squirrel" label="Squirrel">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="181.59375" y="-63.599163" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="GameMonkey Script" label="GameMonkey Script">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="34.488346" y="-109.11535" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Fantom" label="Fantom">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="355.72806" y="-928.3491" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Ceylon" label="Ceylon">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="323.1374" y="-983.72864" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Kotlin" label="Kotlin">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="214.37445" y="-941.8409" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Emerald" label="Emerald">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="663.0735" y="-781.626" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Singularity" label="Singularity">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="775.4039" y="-852.4155" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Information Processing Language" label="Information Processing Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-500.3511" y="-597.7025" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Lisp" label="Lisp">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="41.411766"></viz:size>
+        <viz:position x="-339.2693" y="-550.6658" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="LESS" label="LESS">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-2147.4417" y="1854.7432" z="0.0"></viz:position>
+        <viz:color r="143" g="246" b="93"></viz:color>
+      </node>
+      <node id="Sass" label="Sass">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-2131.0051" y="1803.2466" z="0.0"></viz:position>
+        <viz:color r="143" g="246" b="93"></viz:color>
+      </node>
+      <node id="MSX BASIC" label="MSX BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-693.32587" y="1792.7255" z="0.0"></viz:position>
+        <viz:color r="143" g="93" b="246"></viz:color>
+      </node>
+      <node id="Vilnius BASIC" label="Vilnius BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-646.5251" y="1759.0934" z="0.0"></viz:position>
+        <viz:color r="143" g="93" b="246"></viz:color>
+      </node>
+      <node id="Modula-2+" label="Modula-2+">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="771.3576" y="-745.1851" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Modula-3" label="Modula-3">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="592.5897" y="-678.86224" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Newsqueak" label="Newsqueak">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="1118.5225" y="-884.6282" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Rust" label="Rust">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="973.0991" y="-931.57697" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Go" label="Go">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="1159.1102" y="-663.4505" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Limbo" label="Limbo">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="1104.3954" y="-758.4136" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Alef" label="Alef">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="1201.3162" y="-844.0759" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Spec Sharp" label="Spec Sharp">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="92.62339" y="1956.0177" z="0.0"></viz:position>
+        <viz:color r="207" g="246" b="93"></viz:color>
+      </node>
+      <node id="Sing Sharp" label="Sing Sharp">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="174.23355" y="1997.9779" z="0.0"></viz:position>
+        <viz:color r="207" g="246" b="93"></viz:color>
+      </node>
+      <node id="Rexx" label="Rexx">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1236.4342" y="686.6008" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Object REXX" label="Object REXX">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1278.2722" y="739.3301" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="NetRexx" label="NetRexx">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1187.7122" y="779.41174" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="A+" label="A+">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1940.6802" y="-616.09143" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="K" label="K">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1893.8846" y="-583.8386" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="CPL" label="CPL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="1254.4136" y="-159.52295" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="BCPL" label="BCPL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1172.504" y="-17.720642" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="POP-2" label="POP-2">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1440.2065" y="-160.82172" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Lucid" label="Lucid">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="20.37522" y="-1891.0336" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="136"></viz:color>
+      </node>
+      <node id="Pure Data" label="Pure Data">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-38.146393" y="-1933.6895" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="136"></viz:color>
+      </node>
+      <node id="Lustre" label="Lustre">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="49.826454" y="-1970.0739" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="136"></viz:color>
+      </node>
+      <node id="SISAL" label="SISAL">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-9.4225445" y="-2037.3174" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="136"></viz:color>
+      </node>
+      <node id="SP/k" label="SP/k">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1145.121" y="571.5822" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Turing" label="Turing">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1030.7825" y="539.9477" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="IBM RPG" label="IBM RPG">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1039.054" y="1370.897" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="129"></viz:color>
+      </node>
+      <node id="IBM RPG II" label="IBM RPG II">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-992.8547" y="1405.4178" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="129"></viz:color>
+      </node>
+      <node id="TOM" label="TOM">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="218.50645" y="-288.3172" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="Nu" label="Nu">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-64.37167" y="-476.55594" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Visual Basic" label="Visual Basic">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="1296.5111" y="287.31488" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Basic4ppc" label="Basic4ppc">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1273.7538" y="406.1594" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Gambas" label="Gambas">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1413.7354" y="445.6994" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Visual Basic .NET" label="Visual Basic .NET">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1063.2059" y="-117.31394" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Realbasic" label="Realbasic">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1425.8232" y="366.87067" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Fortran" label="Fortran">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="1275.4463" y="83.574" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="BASIC" label="BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="23.161766"></viz:size>
+        <viz:position x="1455.3699" y="238.63387" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="C" label="C">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="40.338234"></viz:size>
+        <viz:position x="747.02673" y="-260.43365" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="ALGOL 58" label="ALGOL 58">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1304.9806" y="17.99573" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Ratfor" label="Ratfor">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1397.2024" y="119.07041" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="PL/I" label="PL/I">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="1181.1127" y="445.9873" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="MUMPS" label="MUMPS">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="1640.105" y="239.85728" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="PACT" label="PACT">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1431.4773" y="155.04759" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="AutoHotkey" label="AutoHotkey">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1505.4958" y="327.03998" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="GRASS" label="GRASS">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1634.5593" y="367.33197" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="AutoIt" label="AutoIt">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1538.7622" y="402.61295" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="COMAL" label="COMAL">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1504.4974" y="276.03506" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Pike" label="Pike">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="593.69995" y="-254.89795" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Perl" label="Perl">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="28.529411"></viz:size>
+        <viz:position x="228.6977" y="-239.11044" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="C99" label="C99">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="473.6336" y="-270.32178" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="LPC" label="LPC">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="515.9373" y="-217.17398" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="COBOL" label="COBOL">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="1362.5408" y="780.794" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="ABAP" label="ABAP">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1304.618" y="849.36505" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="CobolScript" label="CobolScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1408.1931" y="888.0653" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="C--" label="C--">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="795.1301" y="-173.59976" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="BitC" label="BitC">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="878.04724" y="-203.39728" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="C shell" label="C shell">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="907.5735" y="-163.07486" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="AWK" label="AWK">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="279.27347" y="6.177446" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Processing" label="Processing">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="738.60205" y="-121.51677" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="AMPL" label="AMPL">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="496.1016" y="-81.04154" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="F Sharp" label="F Sharp">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="432.73798" y="-1030.2645" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Nemerle" label="Nemerle">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="501.4098" y="-854.4007" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Caml" label="Caml">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="582.50757" y="-930.50885" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Forth" label="Forth">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="-818.6875" y="-168.37767" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="RPL" label="RPL">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-891.64233" y="-121.591225" z="0.0"></viz:position>
+        <viz:color r="186" g="93" b="246"></viz:color>
+      </node>
+      <node id="Haskell" label="Haskell">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="50.0"></viz:size>
+        <viz:position x="127.29864" y="-1032.2516" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Timber" label="Timber">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-165.6635" y="-1317.7645" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Cayenne" label="Cayenne">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="98.53026" y="-1150.5114" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Qi" label="Qi">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-158.04146" y="-873.08685" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Kaya" label="Kaya">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="11.42246" y="-1239.8734" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Quark Framework" label="Quark Framework">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-41.44044" y="-1070.8837" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="C++11" label="C++11">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-64.931984" y="-1185.432" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Ωmega" label="Ωmega">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="283.87796" y="-1147.8778" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Language Integrated Query" label="Language Integrated Query">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-127.92131" y="-16.127522" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Agda" label="Agda">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-164.49141" y="-1467.5206" z="0.0"></viz:position>
+        <viz:color r="100" g="93" b="246"></viz:color>
+      </node>
+      <node id="Concepts" label="Concepts">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="283.9044" y="-1241.2919" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Bluespec, Inc." label="Bluespec, Inc.">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-149.78407" y="-1368.6381" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Epigram" label="Epigram">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="153.19923" y="-1196.1106" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Escher" label="Escher">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-77.64796" y="-1280.868" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Clean" label="Clean">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="74.0789" y="-1389.2866" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Generics in Java" label="Generics in Java">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-77.814735" y="-1109.2003" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Mercury" label="Mercury">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="443.69238" y="-1357.8043" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Curry" label="Curry">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="42.684513" y="-1322.502" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Isabelle" label="Isabelle">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-170.07199" y="-1222.3049" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Elm" label="Elm">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-294.25653" y="-1083.8392" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="J" label="J">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="-2126.6174" y="-508.59116" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="NumPy" label="NumPy">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2202.597" y="-384.0568" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="SuperCollider" label="SuperCollider">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2118.2146" y="-427.2943" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="OCaml" label="OCaml">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="606.9675" y="-1094.4254" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="ATS" label="ATS">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="670.02747" y="-1173.7421" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Opa" label="Opa">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="492.16513" y="-1182.2607" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Object Pascal" label="Object Pascal">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="821.22906" y="-637.6183" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Game Maker Language" label="Game Maker Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="944.159" y="-704.24396" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Prolog" label="Prolog">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="743.8043" y="-1487.9783" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Visual Prolog" label="Visual Prolog">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="801.249" y="-1640.3239" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="KL1" label="KL1">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="849.52997" y="-1520.0455" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Erlang" label="Erlang">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="552.9051" y="-1402.4225" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Oz" label="Oz">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="867.6936" y="-1680.9558" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Strand" label="Strand">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="788.503" y="-1600.006" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Datalog" label="Datalog">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="925.08466" y="-1560.0802" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="KL0" label="KL0">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="679.59357" y="-1600.1494" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Boo" label="Boo">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="46.865543" y="-716.1471" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Cobra" label="Cobra">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="153.66634" y="-746.2636" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Mirah" label="Mirah">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-112.03583" y="-675.73157" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Reia" label="Reia">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-148.48694" y="-639.02985" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="SNOBOL" label="SNOBOL">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-56.268982" y="-67.560616" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="SQL" label="SQL">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-4.5868754" y="236.98389" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Contextual Query Language" label="Contextual Query Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-52.75569" y="318.5209" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Scheme" label="Scheme">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="26.382353"></viz:size>
+        <viz:position x="-267.26974" y="-814.85114" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Kernel" label="Kernel">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-371.8645" y="-881.6844" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Hop" label="Hop">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-326.55286" y="-923.3854" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Simula" label="Simula">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1201.5754" y="-290.33685" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Tcl" label="Tcl">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="33.18004" y="38.29452" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Tea" label="Tea">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-4.4054613" y="148.12683" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="VBScript" label="VBScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="184.66281" y="364.46527" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="XPath" label="XPath">
+        <attvalues>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1050.4941" y="2105.4143" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="172"></viz:color>
+      </node>
+      <node id="XForms" label="XForms">
+        <attvalues>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="976.96375" y="2072.0613" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="172"></viz:color>
+      </node>
+      <node id="XML Schema" label="XML Schema">
+        <attvalues>
+          <attvalue for="modularity_class" value="11"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1062.048" y="2039.5034" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="172"></viz:color>
+      </node>
+      <node id="Short Code" label="Short Code">
+        <attvalues>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-2022.0536" y="1197.772" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="115"></viz:color>
+      </node>
+      <node id="Intermediate Programming Language" label="Intermediate Programming Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1938.94" y="1234.377" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="115"></viz:color>
+      </node>
+      <node id="OMNIBAC Symbolic Assembler" label="OMNIBAC Symbolic Assembler">
+        <attvalues>
+          <attvalue for="modularity_class" value="12"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1982.2238" y="1159.7603" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="115"></viz:color>
+      </node>
+      <node id="Speedcoding" label="Speedcoding">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="21.014706"></viz:size>
+        <viz:position x="1323.9911" y="195.03072" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="ALGOL" label="ALGOL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="1060.5161" y="-209.69984" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="ALGOL 60" label="ALGOL 60">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="1030.3481" y="-326.9501" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Pascal" label="Pascal">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="27.455883"></viz:size>
+        <viz:position x="958.49634" y="-527.06335" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="ALGOL 68" label="ALGOL 68">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="23.161766"></viz:size>
+        <viz:position x="608.99713" y="-167.42783" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Mary" label="Mary">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="814.34064" y="6.7250066" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Bash" label="Bash">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="728.79614" y="-80.82636" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Bourne shell" label="Bourne shell">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="628.4212" y="41.593433" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="ALGOL 68C" label="ALGOL 68C">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="496.15274" y="3.9262567" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="ALGOL W" label="ALGOL W">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1071.7812" y="-597.3135" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="DIGITAL Command Language" label="DIGITAL Command Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="276.67194" y="409.36176" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Generic Java" label="Generic Java">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="417.3101" y="-774.5981" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Liberty BASIC" label="Liberty BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-504.30103" y="1614.6233" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="243"></viz:color>
+      </node>
+      <node id="Just BASIC" label="Just BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="14"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-560.9902" y="1575.7091" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="243"></viz:color>
+      </node>
+      <node id="MUF" label="MUF">
+        <attvalues>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-804.7819" y="3137.9824" z="0.0"></viz:position>
+        <viz:color r="246" g="157" b="93"></viz:color>
+      </node>
+      <node id="CoolMUD" label="CoolMUD">
+        <attvalues>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-659.93567" y="3172.193" z="0.0"></viz:position>
+        <viz:color r="246" g="157" b="93"></viz:color>
+      </node>
+      <node id="ColdC" label="ColdC">
+        <attvalues>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-711.1887" y="3102.4956" z="0.0"></viz:position>
+        <viz:color r="246" g="157" b="93"></viz:color>
+      </node>
+      <node id="MOO" label="MOO">
+        <attvalues>
+          <attvalue for="modularity_class" value="15"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-753.7408" y="3208.1584" z="0.0"></viz:position>
+        <viz:color r="246" g="157" b="93"></viz:color>
+      </node>
+      <node id="Modula-2" label="Modula-2">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="22.088234"></viz:size>
+        <viz:position x="897.1738" y="-363.51715" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Zonnon" label="Zonnon">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1123.9614" y="-399.79065" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Oberon" label="Oberon">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="1236.6042" y="-561.65936" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Oaklisp" label="Oaklisp">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-576.3491" y="-836.82983" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Object Oberon" label="Object Oberon">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1463.5876" y="-530.3437" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Oberon-2" label="Oberon-2">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="1290.9982" y="-489.6467" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Alice" label="Alice">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="899.9712" y="-1737.6018" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Pizza" label="Pizza">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="402.3311" y="-891.21747" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Q" label="Q">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1927.6559" y="-510.23053" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="Pure" label="Pure">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1915.9468" y="-410.51224" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="StarLogo" label="StarLogo">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1214.6509" y="-456.65503" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="TELCOMP" label="TELCOMP">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1806.597" y="330.19598" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Verilog" label="Verilog">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1249.8612" y="1245.1073" z="0.0"></viz:position>
+        <viz:color r="246" g="222" b="93"></viz:color>
+      </node>
+      <node id="SystemVerilog" label="SystemVerilog">
+        <attvalues>
+          <attvalue for="modularity_class" value="18"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1292.3708" y="1199.9695" z="0.0"></viz:position>
+        <viz:color r="246" g="222" b="93"></viz:color>
+      </node>
+      <node id="B" label="B">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1064.2988" y="105.23934" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Turing+" label="Turing+">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="973.0386" y="860.94116" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Object-Oriented Turing" label="Object-Oriented Turing">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="968.7854" y="932.3491" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Concurrent Euclid" label="Concurrent Euclid">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="962.92334" y="698.9743" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Korn shell" label="Korn shell">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="305.7675" y="114.854614" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="BeanShell" label="BeanShell">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="562.45844" y="-547.03876" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="J Sharp" label="J Sharp">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="608.7546" y="-588.57513" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="CLIPS" label="CLIPS">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-560.894" y="-518.55334" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Mathematica" label="Mathematica">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1120.292" y="-560.2689" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="ML" label="ML">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="24.235294"></viz:size>
+        <viz:position x="313.61447" y="-1107.0353" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="CLU" label="CLU">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="194.48357" y="-521.65076" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Shen" label="Shen">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-473.88382" y="-481.18433" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="MDL" label="MDL">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-445.04504" y="-553.8881" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="OPS5" label="OPS5">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-577.38635" y="-556.2276" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Occam" label="Occam">
+        <attvalues>
+          <attvalue for="modularity_class" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="55.4771" y="1747.4642" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="200"></viz:color>
+      </node>
+      <node id="Ease" label="Ease">
+        <attvalues>
+          <attvalue for="modularity_class" value="19"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-21.406876" y="1713.7942" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="200"></viz:color>
+      </node>
+      <node id="Modula" label="Modula">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1109.7845" y="-525.24316" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Component Pascal" label="Component Pascal">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="1319.346" y="-439.46185" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Oxygene" label="Oxygene">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1085.0682" y="-484.35657" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="APL" label="APL">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="19.941177"></viz:size>
+        <viz:position x="-1804.6808" y="-541.72424" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="MATLAB" label="MATLAB">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1707.4286" y="-507.7874" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="Polymorphic Programming Language" label="Polymorphic Programming Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1752.4857" y="-469.33298" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="Nial" label="Nial">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1803.4086" y="-606.2424" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="Miranda" label="Miranda">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="187.43414" y="-1425.4371" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Felix" label="Felix">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="397.2075" y="-1199.3119" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Cyclone" label="Cyclone">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="293.20544" y="-1292.7928" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Boomerang" label="Boomerang">
+        <attvalues>
+          <attvalue for="modularity_class" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1558.1305" y="1023.4676" z="0.0"></viz:position>
+        <viz:color r="93" g="236" b="246"></viz:color>
+      </node>
+      <node id="XSLT" label="XSLT">
+        <attvalues>
+          <attvalue for="modularity_class" value="21"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1629.3802" y="1062.2289" z="0.0"></viz:position>
+        <viz:color r="93" g="236" b="246"></viz:color>
+      </node>
+      <node id="Argus" label="Argus">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="184.42354" y="-479.4256" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Caja project" label="Caja project">
+        <attvalues>
+          <attvalue for="modularity_class" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-2223.4175" y="808.73535" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="179"></viz:color>
+      </node>
+      <node id="Jacaranda" label="Jacaranda">
+        <attvalues>
+          <attvalue for="modularity_class" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2191.5254" y="767.22473" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="179"></viz:color>
+      </node>
+      <node id="GW-BASIC" label="GW-BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-1296.2211" y="2149.9602" z="0.0"></viz:position>
+        <viz:color r="246" g="200" b="93"></viz:color>
+      </node>
+      <node id="QuickBASIC" label="QuickBASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1205.4205" y="2183.5994" z="0.0"></viz:position>
+        <viz:color r="246" g="200" b="93"></viz:color>
+      </node>
+      <node id="QBasic" label="QBasic">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1395.2711" y="2115.821" z="0.0"></viz:position>
+        <viz:color r="246" g="200" b="93"></viz:color>
+      </node>
+      <node id="Gemstone" label="Gemstone">
+        <attvalues>
+          <attvalue for="modularity_class" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-422.30438" y="1868.6721" z="0.0"></viz:position>
+        <viz:color r="246" g="115" b="93"></viz:color>
+      </node>
+      <node id="Java Platform, Enterprise Edition" label="Java Platform, Enterprise Edition">
+        <attvalues>
+          <attvalue for="modularity_class" value="24"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-442.31842" y="1829.9097" z="0.0"></viz:position>
+        <viz:color r="246" g="115" b="93"></viz:color>
+      </node>
+      <node id="Orwell" label="Orwell">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="119.86212" y="-1281.4368" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="SASL" label="SASL">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="178.49257" y="-1463.6042" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Kent Recursive Calculator" label="Kent Recursive Calculator">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="179.88931" y="-1548.6465" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="AgentSheets" label="AgentSheets">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1219.7174" y="-268.51416" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="AmbientTalk" label="AmbientTalk">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="382.80832" y="78.194725" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="COMTRAN" label="COMTRAN">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1440.2428" y="815.6174" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Joyce" label="Joyce">
+        <attvalues>
+          <attvalue for="modularity_class" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-819.8976" y="1490.3088" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="214"></viz:color>
+      </node>
+      <node id="SuperPascal" label="SuperPascal">
+        <attvalues>
+          <attvalue for="modularity_class" value="26"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-747.52875" y="1532.5786" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="214"></viz:color>
+      </node>
+      <node id="TUTOR" label="TUTOR">
+        <attvalues>
+          <attvalue for="modularity_class" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="678.4798" y="2201.9539" z="0.0"></viz:position>
+        <viz:color r="229" g="246" b="93"></viz:color>
+      </node>
+      <node id="TenCORE" label="TenCORE">
+        <attvalues>
+          <attvalue for="modularity_class" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="605.54474" y="2169.1008" z="0.0"></viz:position>
+        <viz:color r="229" g="246" b="93"></viz:color>
+      </node>
+      <node id="USE" label="USE">
+        <attvalues>
+          <attvalue for="modularity_class" value="27"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="704.50867" y="2135.737" z="0.0"></viz:position>
+        <viz:color r="229" g="246" b="93"></viz:color>
+      </node>
+      <node id="Qt" label="Qt">
+        <attvalues>
+          <attvalue for="modularity_class" value="28"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-269.5239" y="27.763948" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="222"></viz:color>
+      </node>
+      <node id="COWSEL" label="COWSEL">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1551.7715" y="-124.417366" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="FP" label="FP">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-2252.8186" y="-487.07352" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="FPr" label="FPr">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2292.6484" y="-441.10153" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="FL" label="FL">
+        <attvalues>
+          <attvalue for="modularity_class" value="20"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-2202.004" y="-524.2472" z="0.0"></viz:position>
+        <viz:color r="122" g="246" b="93"></viz:color>
+      </node>
+      <node id="JOVIAL" label="JOVIAL">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-1646.0192" y="1642.6467" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="150"></viz:color>
+      </node>
+      <node id="Coral 66" label="Coral 66">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1629.049" y="1571.961" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="150"></viz:color>
+      </node>
+      <node id="SYMPL" label="SYMPL">
+        <attvalues>
+          <attvalue for="modularity_class" value="29"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1559.4541" y="1609.0378" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="150"></viz:color>
+      </node>
+      <node id="KRL" label="KRL">
+        <attvalues>
+          <attvalue for="modularity_class" value="30"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="289.08322" y="1801.3727" z="0.0"></viz:position>
+        <viz:color r="164" g="93" b="246"></viz:color>
+      </node>
+      <node id="KM programming language" label="KM programming language">
+        <attvalues>
+          <attvalue for="modularity_class" value="30"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="281.90894" y="1870.0708" z="0.0"></viz:position>
+        <viz:color r="164" g="93" b="246"></viz:color>
+      </node>
+      <node id="Karel" label="Karel">
+        <attvalues>
+          <attvalue for="modularity_class" value="31"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1482.0927" y="1275.4772" z="0.0"></viz:position>
+        <viz:color r="186" g="246" b="93"></viz:color>
+      </node>
+      <node id="Karel++" label="Karel++">
+        <attvalues>
+          <attvalue for="modularity_class" value="31"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1508.0767" y="1240.9072" z="0.0"></viz:position>
+        <viz:color r="186" g="246" b="93"></viz:color>
+      </node>
+      <node id="Cω" label="Cω">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="16.720589"></viz:size>
+        <viz:position x="-382.70697" y="302.91708" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Superplan" label="Superplan">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-411.65903" y="393.7632" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Stylus" label="Stylus">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2083.954" y="1757.7823" z="0.0"></viz:position>
+        <viz:color r="143" g="246" b="93"></viz:color>
+      </node>
+      <node id="Cool" label="Cool">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="669.0206" y="-894.4415" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="Standard ML of New Jersey" label="Standard ML of New Jersey">
+        <attvalues>
+          <attvalue for="modularity_class" value="32"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1048.1403" y="1601.3018" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="193"></viz:color>
+      </node>
+      <node id="Mythryl" label="Mythryl">
+        <attvalues>
+          <attvalue for="modularity_class" value="32"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1111.8818" y="1642.8873" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="193"></viz:color>
+      </node>
+      <node id="CLACL" label="CLACL">
+        <attvalues>
+          <attvalue for="modularity_class" value="16"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="810.9269" y="-944.2778" z="0.0"></viz:position>
+        <viz:color r="93" g="214" b="246"></viz:color>
+      </node>
+      <node id="Joins" label="Joins">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-300.03403" y="433.77734" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="F*" label="F*">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="469.7259" y="-1100.551" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="DBase" label="DBase">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="268.6239" y="2527.0222" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="236"></viz:color>
+      </node>
+      <node id="Clipper" label="Clipper">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="189.81915" y="2488.873" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="236"></viz:color>
+      </node>
+      <node id="Paradox" label="Paradox">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="258.80615" y="2451.9128" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="236"></viz:color>
+      </node>
+      <node id="Harbour" label="Harbour">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="359.6001" y="2491.3481" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="236"></viz:color>
+      </node>
+      <node id="Oberon-07" label="Oberon-07">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1313.6359" y="-598.8497" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="Rc" label="Rc">
+        <attvalues>
+          <attvalue for="modularity_class" value="34"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-706.1905" y="2199.9292" z="0.0"></viz:position>
+        <viz:color r="122" g="93" b="246"></viz:color>
+      </node>
+      <node id="Inferno" label="Inferno">
+        <attvalues>
+          <attvalue for="modularity_class" value="34"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-637.511" y="2167.2024" z="0.0"></viz:position>
+        <viz:color r="122" g="93" b="246"></viz:color>
+      </node>
+      <node id="Es" label="Es">
+        <attvalues>
+          <attvalue for="modularity_class" value="34"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-730.19464" y="2136.9917" z="0.0"></viz:position>
+        <viz:color r="122" g="93" b="246"></viz:color>
+      </node>
+      <node id="Mizar system" label="Mizar system">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-449.29996" y="-1889.831" z="0.0"></viz:position>
+        <viz:color r="100" g="93" b="246"></viz:color>
+      </node>
+      <node id="OMDoc" label="OMDoc">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-542.32135" y="-1929.0637" z="0.0"></viz:position>
+        <viz:color r="100" g="93" b="246"></viz:color>
+      </node>
+      <node id="HOL Light" label="HOL Light">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-474.8792" y="-1969.5706" z="0.0"></viz:position>
+        <viz:color r="100" g="93" b="246"></viz:color>
+      </node>
+      <node id="Coq" label="Coq">
+        <attvalues>
+          <attvalue for="modularity_class" value="35"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-337.7072" y="-1727.7051" z="0.0"></viz:position>
+        <viz:color r="100" g="93" b="246"></viz:color>
+      </node>
+      <node id="COMIT" label="COMIT">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-87.42874" y="31.594725" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="ISWIM" label="ISWIM">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="18.867647"></viz:size>
+        <viz:position x="76.26783" y="-1500.0847" z="0.0"></viz:position>
+        <viz:color r="93" g="129" b="246"></viz:color>
+      </node>
+      <node id="Croquet Project" label="Croquet Project">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1390.1526" y="-314.49466" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="Tweak programming environment" label="Tweak programming environment">
+        <attvalues>
+          <attvalue for="modularity_class" value="25"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1447.2628" y="-400.05463" z="0.0"></viz:position>
+        <viz:color r="246" g="136" b="93"></viz:color>
+      </node>
+      <node id="Stackless Python" label="Stackless Python">
+        <attvalues>
+          <attvalue for="modularity_class" value="9"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1237.3314" y="-800.1451" z="0.0"></viz:position>
+        <viz:color r="93" g="193" b="246"></viz:color>
+      </node>
+      <node id="JSON" label="JSON">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-796.3946" y="-263.05475" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Sed" label="Sed">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="207.70364" y="65.26804" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="Chomski" label="Chomski">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="213.55269" y="157.48853" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="XHarbour" label="XHarbour">
+        <attvalues>
+          <attvalue for="modularity_class" value="33"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="393.28027" y="2418.652" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="236"></viz:color>
+      </node>
+      <node id="C*" label="C*">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-311.6732" y="1651.0057" z="0.0"></viz:position>
+        <viz:color r="93" g="107" b="246"></viz:color>
+      </node>
+      <node id="Dataparallel-C" label="Dataparallel-C">
+        <attvalues>
+          <attvalue for="modularity_class" value="36"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-234.65643" y="1689.166" z="0.0"></viz:position>
+        <viz:color r="93" g="107" b="246"></viz:color>
+      </node>
+      <node id="Euclid" label="Euclid">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="1012.1799" y="497.4126" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Mesa" label="Mesa">
+        <attvalues>
+          <attvalue for="modularity_class" value="17"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="903.2991" y="-81.029785" z="0.0"></viz:position>
+        <viz:color r="93" g="246" b="107"></viz:color>
+      </node>
+      <node id="IBM BASIC" label="IBM BASIC">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1223.5295" y="2082.1943" z="0.0"></viz:position>
+        <viz:color r="246" g="200" b="93"></viz:color>
+      </node>
+      <node id="GScript" label="GScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="37"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1763.2195" y="868.73914" z="0.0"></viz:position>
+        <viz:color r="229" g="93" b="246"></viz:color>
+      </node>
+      <node id="Gosu" label="Gosu">
+        <attvalues>
+          <attvalue for="modularity_class" value="37"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1790.427" y="830.4526" z="0.0"></viz:position>
+        <viz:color r="229" g="93" b="246"></viz:color>
+      </node>
+      <node id="QB64" label="QB64">
+        <attvalues>
+          <attvalue for="modularity_class" value="23"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-1359.5021" y="2048.3987" z="0.0"></viz:position>
+        <viz:color r="246" g="200" b="93"></viz:color>
+      </node>
+      <node id="A Sharp" label="A Sharp">
+        <attvalues>
+          <attvalue for="modularity_class" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-871.1136" y="1711.2867" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="157"></viz:color>
+      </node>
+      <node id="Aldor" label="Aldor">
+        <attvalues>
+          <attvalue for="modularity_class" value="38"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-879.719" y="1758.5393" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="157"></viz:color>
+      </node>
+      <node id="P′′" label="P′′">
+        <attvalues>
+          <attvalue for="modularity_class" value="39"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-190.61435" y="2254.1638" z="0.0"></viz:position>
+        <viz:color r="246" g="179" b="93"></viz:color>
+      </node>
+      <node id="Brainfuck" label="Brainfuck">
+        <attvalues>
+          <attvalue for="modularity_class" value="39"></attvalue>
+        </attvalues>
+        <viz:size value="14.573529"></viz:size>
+        <viz:position x="-242.64262" y="2286.851" z="0.0"></viz:position>
+        <viz:color r="246" g="179" b="93"></viz:color>
+      </node>
+      <node id="SETL" label="SETL">
+        <attvalues>
+          <attvalue for="modularity_class" value="40"></attvalue>
+        </attvalues>
+        <viz:size value="15.6470585"></viz:size>
+        <viz:position x="-489.31845" y="-1290.619" z="0.0"></viz:position>
+        <viz:color r="93" g="150" b="246"></viz:color>
+      </node>
+      <node id="ProSet" label="ProSet">
+        <attvalues>
+          <attvalue for="modularity_class" value="40"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-574.7074" y="-1332.415" z="0.0"></viz:position>
+        <viz:color r="93" g="150" b="246"></viz:color>
+      </node>
+      <node id="Slim" label="Slim">
+        <attvalues>
+          <attvalue for="modularity_class" value="40"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-533.3587" y="-1369.9944" z="0.0"></viz:position>
+        <viz:color r="93" g="150" b="246"></viz:color>
+      </node>
+      <node id="FALSE" label="FALSE">
+        <attvalues>
+          <attvalue for="modularity_class" value="39"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-280.45892" y="2235.55" z="0.0"></viz:position>
+        <viz:color r="246" g="179" b="93"></viz:color>
+      </node>
+      <node id="Luna" label="Luna">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-655.254" y="-218.15013" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Restricted Io" label="Restricted Io">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-595.4856" y="-255.80107" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="JOSS" label="JOSS">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="17.794117"></viz:size>
+        <viz:position x="1766.413" y="398.66702" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="CAL" label="CAL">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1857.0227" y="433.52957" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="FOCAL" label="FOCAL">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1785.0065" y="468.0117" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Caché ObjectScript" label="Caché ObjectScript">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1774.4214" y="200.08458" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Profile Scripting Language" label="Profile Scripting Language">
+        <attvalues>
+          <attvalue for="modularity_class" value="13"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="1855.4884" y="283.18765" z="0.0"></viz:position>
+        <viz:color r="93" g="172" b="246"></viz:color>
+      </node>
+      <node id="Polyphonic C#" label="Polyphonic C#">
+        <attvalues>
+          <attvalue for="modularity_class" value="10"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-401.84018" y="475.70786" z="0.0"></viz:position>
+        <viz:color r="246" g="243" b="93"></viz:color>
+      </node>
+      <node id="SAC programming language" label="SAC programming language">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-26.834558" y="-2098.6555" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="136"></viz:color>
+      </node>
+      <node id="Cel" label="Cel">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-570.3811" y="-101.806305" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Squeak" label="Squeak">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-575.671" y="-11.513504" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Agora" label="Agora">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-483.50684" y="-60.445663" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="93"></viz:color>
+      </node>
+      <node id="Joe-E" label="Joe-E">
+        <attvalues>
+          <attvalue for="modularity_class" value="22"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-2156.795" y="846.8234" z="0.0"></viz:position>
+        <viz:color r="246" g="93" b="179"></viz:color>
+      </node>
+      <node id="Join-pattern" label="Join-pattern">
+        <attvalues>
+          <attvalue for="modularity_class" value="41"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-137.58359" y="1914.9032" z="0.0"></viz:position>
+        <viz:color r="100" g="246" b="93"></viz:color>
+      </node>
+      <node id="Join-calculus" label="Join-calculus">
+        <attvalues>
+          <attvalue for="modularity_class" value="41"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="-190.92032" y="1877.5256" z="0.0"></viz:position>
+        <viz:color r="100" g="246" b="93"></viz:color>
+      </node>
+      <node id="ECL" label="ECL">
+        <attvalues>
+          <attvalue for="modularity_class" value="42"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="518.3909" y="1831.739" z="0.0"></viz:position>
+        <viz:color r="207" g="93" b="246"></viz:color>
+      </node>
+      <node id="Big data" label="Big data">
+        <attvalues>
+          <attvalue for="modularity_class" value="42"></attvalue>
+        </attvalues>
+        <viz:size value="13.5"></viz:size>
+        <viz:position x="587.27325" y="1794.2639" z="0.0"></viz:position>
+        <viz:color r="207" g="93" b="246"></viz:color>
+      </node>
+    </nodes>
+    <edges>
+      <edge source="ABC" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="Groovy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="Boo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Python" target="Cobra">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AS/400 Control Language" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="Emacs Lisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="R">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="Clojure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="EuLisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="SubL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="Cadence SKILL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Common Lisp" target="ISLISP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Dylan" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Dylan" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Dylan" target="Goo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="EuLisp" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="EuLisp" target="ISLISP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Fancy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Groovy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Ioke">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Nu">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Mirah">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ruby" target="Reia">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Sather">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Lisaac">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Eiffel" target="Racket">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="D" target="Vala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="D" target="Qore">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="D" target="MiniD">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="D" target="DScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scala" target="Fantom">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scala" target="Ceylon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scala" target="Kotlin">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C#" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C#" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C#" target="Vala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C#" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C#" target="Nemerle">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Clojure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="PHP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Groovy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="Vala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="ECMAScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="BeanShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Java" target="J Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sather" target="Rust">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sather" target="Cool">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Racket" target="Scheme">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Factor" target="Concatenation">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Factor" target="Cat">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Icon" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joy" target="Factor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joy" target="Cat">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joy" target="Trith">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joy" target="V">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="PostScript" target="Portable Document Format">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="STOS BASIC" target="AMOS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Lisaac">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Fancy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Objective-C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="PHP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Dart">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="AppleScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Groovy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Logtalk">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Ioke">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Common Lisp Object System">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="NewtonScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Self">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Smalltalk" target="Perl 6">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Objective-C" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Objective-C" target="Objective-J">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Objective-C" target="TOM">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Objective-C" target="Nu">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Io" target="Fancy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Io" target="Ioke">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Io" target="Luna">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Io" target="Restricted Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="NewtonScript" target="Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Lisaac">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Factor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="NewtonScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="REBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Cel">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Squeak">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Self" target="Agora">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="T" target="EuLisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="Eiffel">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="C++">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="PL/SQL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="VHDL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Ada" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="PHP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Pike">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="Perl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="C99">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C++" target="LPC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="HyperTalk" target="ECMAScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="HyperTalk" target="LiveCode">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="Dart">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="Objective-J">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="CoffeeScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="ActionScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="QML">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="JScript .NET">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JavaScript" target="TypeScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="QML" target="Qt">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="Smalltalk">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="Scratch">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="NetLogo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="Etoys">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="KTurtle">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Logo" target="REBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Etoys" target="Scratch">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Etoys" target="Croquet Project">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Etoys" target="Tweak programming environment">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="REBOL" target="JSON">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lua" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lua" target="Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lua" target="MiniD">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lua" target="Squirrel">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lua" target="GameMonkey Script">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Squirrel" target="MiniD">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Emerald" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Emerald" target="Singularity">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Information Processing Language" target="Lisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="R">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Racket">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Smalltalk">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Ioke">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Io">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Logo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="REBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Nu">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Perl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Forth">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Qi">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Tcl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="CLIPS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Mathematica">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="ML">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="CLU">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="Shen">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="MDL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lisp" target="OPS5">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="LESS" target="Sass">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sass" target="LESS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sass" target="Stylus">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MSX BASIC" target="Vilnius BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2+" target="Modula-3">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-3" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-3" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-3" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-3" target="Caml">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Newsqueak" target="Rust">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Newsqueak" target="Go">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Newsqueak" target="Limbo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Newsqueak" target="Alef">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Limbo" target="Rust">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Limbo" target="Go">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Limbo" target="Stackless Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Alef" target="Rust">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Alef" target="Go">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Alef" target="Limbo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Spec Sharp" target="Sing Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Rexx" target="Object REXX">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Rexx" target="NetRexx">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="A+" target="K">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CPL" target="BCPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CPL" target="POP-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BCPL" target="B">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lucid" target="Pure Data">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lucid" target="Lustre">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Lucid" target="SISAL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SISAL" target="SAC programming language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SP/k" target="Turing">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="IBM RPG" target="IBM RPG II">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Visual Basic" target="Basic4ppc">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Visual Basic" target="Gambas">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Visual Basic" target="Visual Basic .NET">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Visual Basic" target="Realbasic">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="ALGOL 58">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="Ratfor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="PL/I">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="MUMPS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Fortran" target="PACT">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="Visual Basic">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="Visual Basic .NET">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="Realbasic">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="AutoHotkey">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="GRASS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="AutoIt">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="BASIC" target="COMAL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="D">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Objective-C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="PHP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="C++">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Go">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Limbo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Pike">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Perl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="LPC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="C--">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="BitC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="C shell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="AWK">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="Processing">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C" target="AMPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 58" target="ALGOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="PL/I" target="AS/400 Control Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="PL/I" target="Rexx">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="PL/I" target="SP/k">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="PL/I" target="B">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MUMPS" target="Caché ObjectScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MUMPS" target="Profile Scripting Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Falcon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="PHP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Perl 6">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="Qore">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="ECMAScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Perl" target="LPC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="LPC" target="Pike">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COBOL" target="PL/I">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COBOL" target="ABAP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COBOL" target="CobolScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AWK" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AWK" target="Perl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AWK" target="AMPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AWK" target="Tcl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AWK" target="Korn shell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="F Sharp" target="F*">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Caml" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Forth" target="Factor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Forth" target="PostScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Forth" target="REBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Forth" target="RPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Clojure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Perl 6">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="CoffeeScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Visual Basic .NET">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Timber">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Cayenne">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Qi">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Kaya">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Quark Framework">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="C++11">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Ωmega">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Language Integrated Query">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Agda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Concepts">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Bluespec, Inc.">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Epigram">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Escher">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Clean">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Generics in Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Mercury">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Curry">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Isabelle">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Haskell" target="Elm">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="J" target="NumPy">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="J" target="SuperCollider">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="OCaml" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="OCaml" target="Rust">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="OCaml" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="OCaml" target="ATS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="OCaml" target="Opa">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Object Pascal" target="C#">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Object Pascal" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Object Pascal" target="Game Maker Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Mercury">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Visual Prolog">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="KL1">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Erlang">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Oz">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Strand">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="Datalog">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Prolog" target="KL0">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oz" target="Alice">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SNOBOL" target="Icon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SNOBOL" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SQL" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SQL" target="Language Integrated Query">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SQL" target="Contextual Query Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Common Lisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="R">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Clojure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="EuLisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Racket">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="JavaScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Kernel">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Scheme" target="Hop">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Tcl" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Tcl" target="Tea">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="VBScript" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="XPath" target="XForms">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="XPath" target="XML Schema">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Short Code" target="Intermediate Programming Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Short Code" target="OMNIBAC Symbolic Assembler">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="Fortran">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="ALGOL 58">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="Ratfor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="PL/I">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="MUMPS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Speedcoding" target="PACT">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL" target="CPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL" target="Simula">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL" target="Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 60" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 60" target="CPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 60" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 60" target="Simula">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 60" target="Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Modula-3">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Object Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Modula-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Oberon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Oberon-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Modula">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Component Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pascal" target="Oxygene">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Python">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="C++">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Mary">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Bash">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="Bourne shell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL 68" target="ALGOL 68C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ALGOL W" target="Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="DIGITAL Command Language" target="Windows PowerShell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Generic Java" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Liberty BASIC" target="Just BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MUF" target="CoolMUD">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MUF" target="ColdC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MUF" target="MOO">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CoolMUD" target="ColdC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MOO" target="CoolMUD">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="MOO" target="ColdC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Seed7">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Modula-3">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Fortran">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Zonnon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Modula-2" target="Oberon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oberon" target="Go">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oberon" target="Zonnon">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oberon" target="Oberon-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oberon" target="Oberon-07">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oaklisp" target="Dylan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oaklisp" target="EuLisp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Object Oberon" target="Oberon-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Oberon-2" target="Component Pascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pizza" target="Scala">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Pizza" target="Generic Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Q" target="Pure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="StarLogo" target="NetLogo">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="StarLogo" target="Etoys">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="TELCOMP" target="MUMPS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Verilog" target="SystemVerilog">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="B" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Turing+" target="Object-Oriented Turing">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Concurrent Euclid" target="Turing+">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Clojure">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="C++">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="F Sharp">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Opa">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Erlang">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Miranda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Felix">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ML" target="Cyclone">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLU" target="Ruby">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLU" target="Sather">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLU" target="Ada">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLU" target="Lua">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLU" target="Argus">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Occam" target="Ease">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="K">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="J">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="Q">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="Mathematica">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="MATLAB">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="Polymorphic Programming Language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="APL" target="Nial">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Miranda" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Miranda" target="Clean">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Boomerang" target="XSLT">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Caja project" target="Jacaranda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="GW-BASIC" target="QuickBASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="GW-BASIC" target="QBasic">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="QBasic" target="QB64">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Gemstone" target="Java Platform, Enterprise Edition">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Orwell" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SASL" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SASL" target="Miranda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SASL" target="Kent Recursive Calculator">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Kent Recursive Calculator" target="Miranda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AgentSheets" target="Scratch">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AgentSheets" target="Etoys">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="AmbientTalk" target="ECMAScript">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COMTRAN" target="COBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joyce" target="SuperPascal">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="TUTOR" target="TenCORE">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="TUTOR" target="USE">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COWSEL" target="POP-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="FP" target="J">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="FP" target="FPr">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="FP" target="FL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="FL" target="J">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOVIAL" target="Coral 66">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOVIAL" target="SYMPL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="KRL" target="KM programming language">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Karel" target="Karel++">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Cω" target="Language Integrated Query">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Cω" target="Superplan">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Cω" target="Joins">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Standard ML of New Jersey" target="Mythryl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLACL" target="C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="CLACL" target="Prolog">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="DBase" target="Clipper">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="DBase" target="Paradox">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="DBase" target="Harbour">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Harbour" target="XHarbour">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Rc" target="Inferno">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Rc" target="Es">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Mizar system" target="OMDoc">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Mizar system" target="HOL Light">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Mizar system" target="Coq">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Coq" target="Agda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="COMIT" target="SNOBOL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="Lucid">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="Haskell">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="Clean">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="ML">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="Miranda">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ISWIM" target="SASL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sed" target="Perl">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sed" target="AWK">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Sed" target="Chomski">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="C*" target="Dataparallel-C">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Euclid" target="Turing">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Euclid" target="Concurrent Euclid">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Euclid" target="Mesa">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Mesa" target="Java">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Mesa" target="Modula-2">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="IBM BASIC" target="GW-BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="GScript" target="Gosu">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="A Sharp" target="Aldor">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="P′′" target="Brainfuck">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SETL" target="ABC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SETL" target="ProSet">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="SETL" target="Slim">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="FALSE" target="Brainfuck">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOSS" target="BASIC">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOSS" target="MUMPS">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOSS" target="TELCOMP">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOSS" target="CAL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="JOSS" target="FOCAL">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Polyphonic C#" target="Cω">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Joe-E" target="Caja project">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="Join-pattern" target="Join-calculus">
+        <attvalues></attvalues>
+      </edge>
+      <edge source="ECL" target="Big data">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
