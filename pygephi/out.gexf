@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
-  <meta lastmodifieddate="2016-04-13">
+  <meta lastmodifieddate="2016-04-14">
     <creator>Gephi 0.8</creator>
     <description></description>
   </meta>
@@ -1275,7 +1275,7 @@
         <viz:position x="10.578896" y="-1054.2224" z="0.0"></viz:position>
         <viz:color r="93" g="129" b="246"></viz:color>
       </node>
-      <node id="Î©mega" label="Î©mega">
+      <node id="Ωmega" label="Ωmega">
         <attvalues>
           <attvalue for="modularity_class" value="8"></attvalue>
         </attvalues>
@@ -2395,7 +2395,7 @@
         <viz:position x="-1102.7578" y="1075.1776" z="0.0"></viz:position>
         <viz:color r="186" g="246" b="93"></viz:color>
       </node>
-      <node id="CÏ‰" label="CÏ‰">
+      <node id="Cω" label="Cω">
         <attvalues>
           <attvalue for="modularity_class" value="10"></attvalue>
         </attvalues>
@@ -2715,7 +2715,7 @@
         <viz:position x="-649.5601" y="1444.6555" z="0.0"></viz:position>
         <viz:color r="246" g="93" b="157"></viz:color>
       </node>
-      <node id="Pâ€²â€²" label="Pâ€²â€²">
+      <node id="P′′" label="P′′">
         <attvalues>
           <attvalue for="modularity_class" value="39"></attvalue>
         </attvalues>
@@ -2803,7 +2803,7 @@
         <viz:position x="1599.3185" y="329.7959" z="0.0"></viz:position>
         <viz:color r="93" g="172" b="246"></viz:color>
       </node>
-      <node id="CachÃ© ObjectScript" label="CachÃ© ObjectScript">
+      <node id="Caché ObjectScript" label="Caché ObjectScript">
         <attvalues>
           <attvalue for="modularity_class" value="13"></attvalue>
         </attvalues>
@@ -4221,7 +4221,7 @@
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="MUMPS" target="CachÃ© ObjectScript">
+      <edge source="MUMPS" target="Caché ObjectScript">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
@@ -4431,7 +4431,7 @@
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="Haskell" target="Î©mega">
+      <edge source="Haskell" target="Ωmega">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
@@ -5331,17 +5331,17 @@
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="CÏ‰" target="Language Integrated Query">
+      <edge source="Cω" target="Language Integrated Query">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="CÏ‰" target="Superplan">
+      <edge source="Cω" target="Superplan">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="CÏ‰" target="Joins">
+      <edge source="Cω" target="Joins">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
@@ -5506,7 +5506,7 @@
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="Pâ€²â€²" target="Brainfuck">
+      <edge source="P′′" target="Brainfuck">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
@@ -5556,7 +5556,7 @@
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
       </edge>
-      <edge source="Polyphonic C#" target="CÏ‰">
+      <edge source="Polyphonic C#" target="Cω">
         <attvalues>
           <attvalue for="weight" value="1.0"></attvalue>
         </attvalues>
