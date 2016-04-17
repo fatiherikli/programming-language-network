@@ -115,8 +115,9 @@ STATICFILES_DIRS = (
     #'./static',
     #BASE_DIR+'/static/',
     #BASE_DIR+'/static/config_area/',
-    os.path.join(BASE_DIR, 'static', 'static_dirs'),
+    os.path.join(BASE_DIR, 'static'),
 )
+print "STATICFILES_DIRS: "+str(STATICFILES_DIRS)
 
 # List of finder classes that know how to find static files in
 # various locations.
