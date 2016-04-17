@@ -116,9 +116,10 @@
 <body>
 <div id="sidebar">
     <header>
-        <img src="{{ static_dir }}assets/img/logo2.png" alt="Network Visualization"/>
+        <img src="{{ static_dir }}assets/img/logo.png" alt="Programming Language Network"/>
         <p>
-            A graph showing the number of mentions between nodes.
+            A graph of programming languages that consists with
+            their influences, companies, developers, dialects, implementations.
         </p>
     </header>
     <h3>Nodes</h3>
@@ -171,12 +172,7 @@
         "Implementation": "#C3FF68"
     };
 
-    var nodeColors = {
-        "Publication": "#F9BF3B"
-    };
-
     var locationHashMapping = {
-        "Publication": "publication",
         "Programming Language": "language",
         "Computer Scientist": "scientist",
         "Foundation": "foundation",
@@ -191,9 +187,6 @@
         "Dialects": "#6CDFEA",
         "Major implementations": "#C3FF68",
         "Implementation language": "#FFD0D4"
-    };
-    var edgeColors = {
-        "Mentions": "#6b6b6b"
     };
 
     var nodeGroupInfo = d3.select(".nodes-info")
@@ -290,7 +283,6 @@
             })
             .attr("class", "node hover");
         });
-        
 
         if (focus) {
             var coordinates = null;
@@ -339,7 +331,6 @@
                 return false;
             }
             d3.selectAll(".node").each(function (d) {
-            	hashParts[1]=hashParts[1].replace(/%20/g," ");
                 if (d.group == group && d.name == hashParts[1]) {
                     selectNode.call(this, d, focus);
                 }
