@@ -7,6 +7,8 @@ sys.setdefaultencoding("utf-8")
 
 #0v2# JC Apr 18, 2016
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
+filename_temp_csv=BASE_DIR+"/../static/htmt/temp/"+"144cufoff.csv"
+gml_filename=BASE_DIR+"/../static/htmt/temp/"+"/jout.gml"
 
 
 network = {
@@ -37,7 +39,7 @@ def add_node(label, group, weight):
 def rawtxt2gml(filename,contents):
     oa=[]
 
-    filename_out="144cufoff.csv"
+    filename_out=filename_temp_csv
     fout=open(filename_out,'w')
     
     dd=NestedDict()
@@ -122,7 +124,6 @@ def rawtxt2gml(filename,contents):
                            node2.encode("utf-8"),
                            label="", weight=mentions_n2n)
                  
-    gml_filename=BASE_DIR+"/jout.gml"
     nx.write_gml(graph, gml_filename)
     print "Outputed "+str(node_count)+" nodes to: "+gml_filename
         
