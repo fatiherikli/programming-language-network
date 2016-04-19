@@ -7,12 +7,13 @@ from demo.views import PaginationView, FormWithFilesView, DefaultFormView, MiscV
 from demo.views import DefaultFormsetView, DefaultFormByFieldView
 
 from htmt.views import htmt_page
+from htmt.views import upload_page
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
 
-
 urlpatterns = patterns('',
+    url(r'upload', upload_page, name='upload_page'),
     url(r'^$', htmt_page, name='htmt_page_main'),
     url(r'^$', HomePageView.as_view(), name='home'),
     url(r'^formset$', DefaultFormsetView.as_view(), name='formset_default'),

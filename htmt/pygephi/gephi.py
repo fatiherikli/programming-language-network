@@ -90,6 +90,34 @@ def adjust_sizes(nodes, attribute="in_degree", scale=None):
         node_data.setSize(1 + scale(value)) # avoid problem with 0 sizes
         print "changed %s size from %s to %s" % (node_data.getLabel(), value, (1 + scale(value)))
 
+def jadjust_sizes(nodes, attribute="weight", scale=None):
+    
+    
+    node_attributes = nodes[0].getNodeData().attributes.values
+    try: ix = [v.column.title for v in node_attributes].index(attribute)
+    except:
+	#JC#
+        print "Debug ERROR:  No title for node -- skipping adjust_sizes"
+	return
+
+    #Jon scale with max at 30
+    #scale=lambda f : 4 * (4-f)
+    min_node_size=10
+    max_node_size=20+min_node_size
+    if not scale:
+        m = max([float(n.getNodeData().attributes.values[ix].value) for n in nodes])
+        m=float(m)
+        print "Max node: "+str(m)+" type: "+str(type(m)) #~1000
+        scale = lambda f : max_node_size*(f/m)
+
+    for node in nodes:
+        node_data = node.getNodeData()
+        value = float(node_data.attributes.values[ix].value)
+        node_data.setSize(1 + scale(value)) # avoid problem with 0 sizes
+        print "changed %s size from %s to %s" % (node_data.getLabel(), value, (min_node_size + scale(value)))
+
+    return
+
 def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, save_pdf=True, save_gephi=False):
     print "loading graph"
     # tips:
@@ -114,7 +142,9 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
     ImportController.process(graph, dp, w)
 
     if layout:
-        # Setup Layout
+
+        #  Layout
+        ##################################################################
         fa = lookup('layout.plugin.forceAtlas.ForceAtlas')
         force_atlas = fa.buildLayout()
         force_atlas.setGraphModel(GraphController.getModel())
@@ -124,7 +154,10 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
         #    print "%s -> '%s' (%s) = %s" % (p.category, p.displayName, p.name, p.value)
         force_atlas.adjustSizes = True
         force_atlas.attractionStrength = 8
-        force_atlas.repulsionStrength = 2000
+        force_atlas.repulsionStrength = 2000 #too close
+        force_atlas.repulsionStrength = 200000 #too far
+        force_atlas.repulsionStrength = 100000 #almost
+        force_atlas.repulsionStrength = 50000
 
         force_atlas.initAlgo()
         steps = 50000
@@ -135,7 +168,11 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
                 print "step %d" % steps
             force_atlas.goAlgo()
             steps -= 1
+            
+            
 
+        #  Adjust labels
+        ##################################################################
         # I think there's a bug in label adjust so that it doesn't work in the toolkit?
         # http://forum.gephi.org/viewtopic.php?t=1435
         lab = lookup('layout.plugin.labelAdjust.LabelAdjustBuilder')
@@ -158,7 +195,7 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
     gv = gm.getGraphVisible()
     nodes = list(gv.getNodes())
     print "D: adjusting nodes size: "+str(len(nodes))
-    adjust_sizes(nodes)
+    jadjust_sizes(nodes)
 
     # adjust the look a bit for the pdf
     preview = PreviewController.getModel()
@@ -171,6 +208,7 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
     ExportController.exportFile(java.io.File(out_gexf))
     
     # 2) PDF
+    save_pdf=False
     if save_pdf:
         # reset node sizes, small ones cause problems for pdf render
         adjust_sizes(nodes, scale=lambda f : 4 * (4-f))
@@ -184,6 +222,21 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
     if save_gephi:
         saver = ProjectController.saveProject(ProjectController.getCurrentProject(), java.io.File("new_graph.gephi"))
         saver.run()
+
+    # 4) GraphML gml file
+    #//Export to Writer
+    #Exporter exporterGraphML = ec.getExporter("graphml");     //Get GraphML exporter
+    #exporterGraphML.setWorkspace(workspace);
+    #StringWriter stringWriter = new StringWriter();
+    #ec.exportWriter(stringWriter, (CharacterExporter) exporterGraphML);
+    #//System.out.println(stringWriter.toString());   //Uncomment this line
+
+    gml = ExportController.getExporter("graphml")
+    gml_out="gml_out.graphml"
+    ExportController.exportFile(java.io.File(gml_out), gml)
+
+
+
     
 if __name__ == '__main__':
     # from optparse import OptionParser

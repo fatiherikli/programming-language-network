@@ -1,9 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Network Visualization</title>
-    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script> <!-- button -->
-    
+    <title>Programming Language Network</title>
     <script src="{{ static_dir }}assets/lib/d3.v3.min.js"></script>
     <script src="{{ static_dir }}assets/lib/fuzzy.min.js"></script>
     <style type="text/css">
@@ -114,117 +112,8 @@
           font-size: 15px;
         }
     </style>
-    
-    
-    
-     
-    <script>
-     function sendFile(file) {
-        var uri = "/upload/";
-        var xhr = new XMLHttpRequest();
-        var fd = new FormData();
-        
-        xhr.open("POST", uri, true); //async
-        xhr.onreadystatechange = function() {
-            if (xhr.readyState == 4 && xhr.status == 200) {
-                // Handle response.
-                location.reload();
-            }
-            else {
-                //alert("Error msg: "+xhr.responseText); // handle response.
-                location.reload();
-            }
-        };
-        fd.append('myFile', file);
-        // Initiate a multipart/form-data upload
-    
-        xhr.setRequestHeader("X-CSRFToken", '{{ csrf_token }}'); //after "open"
-        //xhr.send(fd);
-        xhr.send(file);
-        
-    }
-    
-    function load_resource(url) {
-        var req = new XMLHttpRequest();
-        req.open('GET', url, false); //XHR binary charset opt by Marcus Granado 2006 [http://mgran.blogspot.com]
-        //  req.overrideMimeType('text\/plain; charset=x-user-defined');
-        req.send(null);
-        if (req.status != 200) return '';
-        return req.responseText;
-      }
-      
-    function save_file(filename, data) {
-        // Popup/save in browser
-        var blob = new Blob([data], {type: 'text/csv'});
-        if(window.navigator.msSaveOrOpenBlob) {
-            window.navigator.msSaveBlob(blob, filename);
-        }
-        else{
-            var elem = window.document.createElement('a');
-            elem.href = window.URL.createObjectURL(blob);
-            elem.download = filename;        
-            document.body.appendChild(elem)
-            elem.click();        
-            document.body.removeChild(elem);
-        }
-      }
-    </script>
-    <!--  Button style -->
-       <style>
-        .btn-file {
-            position: relative;
-            overflow: hidden;
-        }
-        
-        .btn-file input[type=file] {
-            position: absolute;
-            top: 0;
-            right: 0;
-            min-width: 100%;
-            min-height: 100%;
-            font-size: 100px;
-            text-align: right;
-            filter: alpha(opacity = 0);
-            opacity: 0;
-            outline: none;
-            background: white;
-            cursor: inherit;
-            display: block;
-        }
-    </style>
-    
-       <script>
-    // Handle file uploads
-    $(document).on('change', '#btn1', function() {
-         var input = $(this),
-             filefield = input.get(0),
-             numFiles = filefield.files ? filefield.files.length : 1;
-         
-         // Get acceptable file types from data attribute "data-file-types"
-         var acceptableTypes = input.data('file-types')? input.data('file-types').split(',') : false;        
-         var labels = [];
-         for (var x = 0; x < filefield.files.length; x++) {
-             labels.push(filefield.files[x].name);
-             console.log(filefield.files[x]);
-             
-             // JC Process & upload
-             fp=filefield.files[x];
-             console.log("Raw length: "+fp.length);
-             console.log("Name: "+fp.name); //ok
-             console.log("Type: "+fp.type); //ok
-             sendFile(fp);
-         }
-         input.trigger('fileselect', [numFiles, labels]);
-    });
-    </script>
-    
-    
 </head>
 <body>
-
-
-    
-    
 <div id="sidebar">
     <header>
         <img src="{{ static_dir }}assets/img/logo2.png" alt="Network Visualization"/>
@@ -240,17 +129,7 @@
     <div class="search-box">
       <input type="search" class="search">
     </div>
-    <br>
-    <br>
-    <br>
-    <h3>Upload</h3>
-    <p>
-       Upload and render your custom network data.
-       <input id="btn1" type="file" name="photo[]" data-file-types="text/csv,image/jpeg,image/png,image/gif" multiple>
-    </p>
-    
 </div>
-
 <script type="text/javascript">
     var width = window.innerWidth,
         height = window.innerHeight;
@@ -272,7 +151,7 @@
         zoomer.translate([850, 700]);
         svg.attr("transform","translate(830, 700) scale(0.7)");
     }
-    
+
     var overlaySize = width * 20; // maxzoomlevel
 
     var rect = svg.append("rect")
@@ -385,12 +264,10 @@
             .attr("dx", 0)
             .style("text-anchor", "middle")
             .style("font-size", function (d) {
-            	return "10px";
                 if (d.w > 20) {
-                    ss=(20 - d.name.length);
-                    return ss
+                    return 20 - d.name.length
                 } else {
-                    return 6;
+                    return 6
                 }
             })
             .text(function(d) { return d.name.substring(0, 20);});
@@ -503,7 +380,5 @@
         }
     });
 </script>
-
-   
 </body>
 </html>
