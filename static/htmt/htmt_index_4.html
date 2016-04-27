@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hospitality Research Network</title>
+    <title>Network Visualization</title>
     <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script> <!-- button -->
     
     <script src="{{ static_dir }}assets/lib/d3.v3.min.js"></script>
@@ -229,7 +229,7 @@
     <header>
         <img src="{{ static_dir }}assets/img/logo2.png" alt="Network Visualization"/>
         <p>
-            A visualiztaion of the Tourism Research Network
+            A graph showing the number of mentions between nodes.
         </p>
     </header>
     <h3>Nodes</h3>
@@ -245,7 +245,7 @@
     <br>
     <h3>Upload</h3>
     <p>
-       Upload network data.
+       Upload and render your custom network data.
        <input id="btn1" type="file" name="photo[]" data-file-types="text/csv,image/jpeg,image/png,image/gif" multiple>
     </p>
     
@@ -325,8 +325,7 @@
     nodeGroupInfo.append("em").attr("style", function (d) {
          return "background: " + nodeColors[d];
     });
-//    nodeGroupInfo.append("span").text(function (d) {return d}, "span");
-    nodeGroupInfo.append("span").text(function (d) {return "Researchers"}, "span"); //hard code
+    nodeGroupInfo.append("span").text(function (d) {return d}, "span");
 
 
     var edgeInfo = d3.select(".edges-info")
@@ -337,8 +336,7 @@
     edgeInfo.append("em").attr("style", function (d) {
          return "background: " + edgeColors[d];
     });
-//    edgeInfo.append("span").text(function (d) {return d}, "span");
-    edgeInfo.append("span").text(function (d) {return "Citations"}, "span");
+    edgeInfo.append("span").text(function (d) {return d}, "span");
 
 
     d3.json("{{ static_dir }}data/network.json", function(error, graph) {
@@ -378,7 +376,6 @@
         node.append("circle")
             .attr("r", function(d) { return d.w; })
             .style("fill", function(d) { return nodeColors[d.group] });
-        
 
         node.append("text")
             .attr("class", function (d) {
@@ -396,19 +393,7 @@
                     return 6;
                 }
             })
-            .text(function(d) { 
-                //Custom node text formatting from RITCHIE J-NO PUB-* to RITCHIE J-NO
-            	label=d.name;
-            	var label = d.name.replace(/ PUB.*/i, "");
-            	var label2 = d.name.replace(/.* PUB/i, "PUB");
-            	d.label=label;
-            	d.label2=label2;
-
-            	return label;
-            	//return d.name.substring(0, 20);
-
-            });
-
+            .text(function(d) { return d.name.substring(0, 20);});
 
         catchLocationHash(true);
     }
@@ -416,16 +401,7 @@
     function selectNode(d, focus) {
         blurNodes();
         node.attr("class", "node background");
-        
         d3.select(this).attr("class", "node hover");
-        
-        
-        //Restore all node names
-        d3.selectAll(".node").each(function (d) {
-              d3.select(this).select('text').text(d.label); //restore
-        });
-        // Set clicked on node name
-        d3.select(this).select("text").text(function(d){ return d.name}); // Show full publication info on click
 
         link.filter(function (_d) {
             return _d.source == graphSource.nodes.indexOf(d)
@@ -435,9 +411,7 @@
             node.filter(function (_n) {
                 return _n.id == graphSource.nodes[_d.target].id
             })
-            .attr("class", "node hover")
-            ;
-            
+            .attr("class", "node hover");
         });
         
 
