@@ -9,6 +9,10 @@ from django.core.files.base import ContentFile
 from htmt_prep import rawtxt2gml
 from jgraphml2json import main as jmain
 
+BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
+filename_temp_csv=BASE_DIR+"/../static/htmt/temp/"+"144cufoff.csv"
+
+
 
 def htmt_page(request):
     the_url=""
@@ -40,13 +44,14 @@ def process_file_render(contentfile_contents):
     
     #2/  Pass through gelphi toolkit
     BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
-    output_filename=BASE_DIR+"/out.gexf"
+    output_filename=BASE_DIR+"/../static/htmt/temp/"+"/out.gexf"
     
     try: os.remove(output_filename)
     except:pass
     
     
-    cmd="c:/jython2.2.1/jython "+BASE_DIR+"/pygephi/gephi.py "+BASE_DIR+"/"+gml_filename+" "+output_filename
+    cmd="c:/jython2.2.1/jython "+BASE_DIR+"/pygephi/gephi.py "+BASE_DIR+"/../static/htmt/temp/"+gml_filename+" "+output_filename
+    cmd="/usr/bin/jython "+BASE_DIR+"/pygephi/gephi.py "+BASE_DIR+"/../static/htmt/temp/"+gml_filename+" "+output_filename
     print "Running jython: "+cmd
     for line in run_command(cmd):
         print line

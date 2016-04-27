@@ -13,6 +13,10 @@ classpath.addFile(toolkit)
 import org.openide.util.Lookup as Lookup
 Lookup = Lookup.getDefault().lookup
 
+
+RELAX_STEPS=1000#5000
+
+
 def lookup(name, namespace='org.gephi.'):
     return Lookup(java.lang.Class.forName(namespace + name))
 
@@ -162,6 +166,8 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
         force_atlas.initAlgo()
         steps = 50000
         steps = 5000
+        steps=RELAX_STEPS
+
         print "running force atlas for %d steps" % steps
         while steps and force_atlas.canAlgo() and not force_atlas.isConverged():
             if steps % 1000 == 0:
@@ -183,6 +189,7 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
         label_adjust.initAlgo()
         steps = 50000
         steps = 5000
+        steps=RELAX_STEPS
         print "running label adjust for %d steps" % steps
         while steps and label_adjust.canAlgo() and not label_adjust.isConverged():
             if steps % 1000 == 0:
@@ -233,7 +240,14 @@ def layout(graph_file='./graph.gexf', out_gexf='./new_graph.gexf', layout=True, 
 
     gml = ExportController.getExporter("graphml")
     gml_out="gml_out.graphml"
-    ExportController.exportFile(java.io.File(gml_out), gml)
+
+    BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '.'))
+    gml_out_relative=BASE_DIR+"/../../static/htmt/temp/gml_out.graphml"
+
+
+    ExportController.exportFile(java.io.File(gml_out_relative), gml)
+    print "Output to "+gml_out_relative
+
 
 
 

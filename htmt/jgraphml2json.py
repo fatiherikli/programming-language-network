@@ -16,7 +16,7 @@ def get_node_index(nodes, node_id):
 
 
 def main():
-    filename="gml_out.graphml"
+    filename=BASE_DIR+"/../static/htmt/temp/gml_out.graphml"
     graph= nx.read_graphml(filename)
     #gml_to_json#  graph = nx.read_gml("../data/network.gml")
 
