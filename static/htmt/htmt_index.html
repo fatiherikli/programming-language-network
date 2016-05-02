@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hospitality Research Network</title>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script> <!-- button -->
+    
+    <script src="{{ static_dir }}assets/lib/d3.v3.min.js"></script>
+    <script src="{{ static_dir }}assets/lib/fuzzy.min.js"></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            font: 17px helvetica, sans-serif;
+            background: #353535;
+        }
+
+        .node {
+            cursor: pointer;
+        }
+
+        .background {
+            -webkit-opacity: .20;
+        }
+
+        .hover {
+
+        }
+
+        .link {
+            stroke-width: 0.1;
+        }
+
+        .link.hover {
+            stroke-width: 1.2;
+        }
+
+        .overlay {
+          fill: none;
+          pointer-events: all;
+        }
+
+        text {
+            max-width: 40px;
+            overflow: hidden;
+        }
+
+        .hidden {
+            /*display: none;*/
+        }
+
+        #sidebar {
+            background: rgba(29, 29, 29, 0.93);
+            width: 328px;
+            position: absolute;
+            height: 100%;
+            color: #b3b3b3;
+        }
+
+        #sidebar p {
+            padding: 20px;
+            margin: 0;
+            margin-bottom: 20px;
+        }
+
+        .nodes-info, .edges-info {
+            margin: 0;
+            padding: 0;
+            margin-bottom: 20px;
+        }
+
+        .nodes-info li, .edges-info li {
+            padding: 2px;
+            margin: 0 0 0 15px;
+            list-style: none;
+            font-size: 15px;
+            padding-left: 30px;
+        }
+
+        #sidebar h3 {
+            padding: 10px 15px;
+            margin: 0;
+            color: #fbf0f7;
+        }
+
+        .nodes-info li em {
+            display: inline-block;
+            width: 17px;
+            position: absolute;
+            height: 17px;
+            background: green;
+            margin-left: -25px;
+            border-radius: 50%;
+        }
+
+        .edges-info li em {
+            display: inline-block;
+            width: 20px;
+            position: absolute;
+            height: 3px;
+            margin-top: 8px;
+            background: purple;
+            margin-left: -25px;
+        }
+
+        .search-box {
+          padding: 0 20px 0 20px;
+        }
+        .search {
+          width: 100%;
+          background-color: transparent;
+          border-style: solid;
+          border-width: 0px 0px 1px 0px;
+          border-color: white;
+          color: #b3b3b3;
+          font-size: 15px;
+        }
+    </style>
+    
+    
+    
+     
+    <script>
+     function sendFile(file) {
+        var uri = "/upload/";
+        var xhr = new XMLHttpRequest();
+        var fd = new FormData();
+        
+        xhr.open("POST", uri, true); //async
+        xhr.onreadystatechange = function() {
+            if (xhr.readyState == 4 && xhr.status == 200) {
+                // Handle response.
+                location.reload();
+            }
+            else {
+                //alert("Error msg: "+xhr.responseText); // handle response.
+                location.reload();
+            }
+        };
+        fd.append('myFile', file);
+        // Initiate a multipart/form-data upload
+    
+        xhr.setRequestHeader("X-CSRFToken", '{{ csrf_token }}'); //after "open"
+        //xhr.send(fd);
+        xhr.send(file);
+        
+    }
+    
+    function load_resource(url) {
+        var req = new XMLHttpRequest();
+        req.open('GET', url, false); //XHR binary charset opt by Marcus Granado 2006 [http://mgran.blogspot.com]
+        //  req.overrideMimeType('text\/plain; charset=x-user-defined');
+        req.send(null);
+        if (req.status != 200) return '';
+        return req.responseText;
+      }
+      
+    function save_file(filename, data) {
+        // Popup/save in browser
+        var blob = new Blob([data], {type: 'text/csv'});
+        if(window.navigator.msSaveOrOpenBlob) {
+            window.navigator.msSaveBlob(blob, filename);
+        }
+        else{
+            var elem = window.document.createElement('a');
+            elem.href = window.URL.createObjectURL(blob);
+            elem.download = filename;        
+            document.body.appendChild(elem)
+            elem.click();        
+            document.body.removeChild(elem);
+        }
+      }
+    </script>
+    <!--  Button style -->
+       <style>
+        .btn-file {
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .btn-file input[type=file] {
+            position: absolute;
+            top: 0;
+            right: 0;
+            min-width: 100%;
+            min-height: 100%;
+            font-size: 100px;
+            text-align: right;
+            filter: alpha(opacity = 0);
+            opacity: 0;
+            outline: none;
+            background: white;
+            cursor: inherit;
+            display: block;
+        }
+    </style>
+    
+       <script>
+    // Handle file uploads
+    $(document).on('change', '#btn1', function() {
+         var input = $(this),
+             filefield = input.get(0),
+             numFiles = filefield.files ? filefield.files.length : 1;
+         
+         // Get acceptable file types from data attribute "data-file-types"
+         var acceptableTypes = input.data('file-types')? input.data('file-types').split(',') : false;        
+         var labels = [];
+         for (var x = 0; x < filefield.files.length; x++) {
+             labels.push(filefield.files[x].name);
+             console.log(filefield.files[x]);
+             
+             // JC Process & upload
+             fp=filefield.files[x];
+             console.log("Raw length: "+fp.length);
+             console.log("Name: "+fp.name); //ok
+             console.log("Type: "+fp.type); //ok
+             sendFile(fp);
+         }
+         input.trigger('fileselect', [numFiles, labels]);
+    });
+    </script>
+    
+    
+</head>
+<body>
+
+
+    
+    
+<div id="sidebar">
+    <header>
+        <img src="{{ static_dir }}assets/img/logo2.png" alt="Hospitality Research Network"/>
+        <p>
+            A visualiztaion of the Tourism Research Network
+        </p>
+    </header>
+    <h3>Nodes</h3>
+    <ul class="nodes-info"></ul>
+    <h3>Edges</h3>
+    <ul class="edges-info"></ul>
+    <h3>Search</h3>
+    <div class="search-box">
+      <input type="search" class="search">
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3>Upload</h3>
+    <p>
+       Upload network data.
+       <input id="btn1" type="file" name="photo[]" data-file-types="text/csv,image/jpeg,image/png,image/gif" multiple>
+    </p>
+    
+</div>
+
+<script type="text/javascript">
+    var width = window.innerWidth,
+        height = window.innerHeight;
+
+    var zoomer = d3.behavior.zoom().scaleExtent([-20, 20]).on("zoom", zoom);
+
+    var svg = d3
+        .select("body")
+        .append("svg")
+        .attr("shape-rendering", "auto")
+        .attr("width", width)
+        .attr("height", height)
+        .append("g")
+        .call(zoomer)
+        .append("g");
+
+    if (!location.hash) {
+        zoomer.scale(0.6);
+        zoomer.translate([850, 700]);
+        svg.attr("transform","translate(830, 700) scale(0.7)");
+    }
+    
+    var overlaySize = width * 20; // maxzoomlevel
+
+    var rect = svg.append("rect")
+        .attr("class", "overlay")
+        .attr("width", (width * 10) + overlaySize)
+        .attr("height", (height * 10) + overlaySize)
+        .attr("x", -overlaySize)
+        .attr("y", -overlaySize);
+
+    var node, link, text, graphSource;
+
+    var nodeColors = {
+        "Programming Language": "#F9BF3B",
+        "Computer Scientist": "#FF0066",
+        "Foundation": "#FFFF00",
+        "Dialect": "#6CDFEA",
+        "Implementation": "#C3FF68"
+    };
+
+    var nodeColors = {
+        "Publication": "#F9BF3B"
+    };
+
+    var locationHashMapping = {
+        "Publication": "publication",
+        "Programming Language": "language",
+        "Computer Scientist": "scientist",
+        "Foundation": "foundation",
+        "Dialect": "dialect",
+        "Implementation": "implementation"
+    };
+
+    var edgeColors = {
+        "Influenced by": "#6b6b6b",
+        "Designed by": "#FF0066",
+        "Developer": "#FFFF00",
+        "Dialects": "#6CDFEA",
+        "Major implementations": "#C3FF68",
+        "Implementation language": "#FFD0D4"
+    };
+    var edgeColors = {
+        "Mentions": "#6b6b6b"
+    };
+
+    var nodeGroupInfo = d3.select(".nodes-info")
+        .selectAll("li")
+        .data(d3.keys(nodeColors))
+        .enter()
+        .append("li");
+    nodeGroupInfo.append("em").attr("style", function (d) {
+         return "background: " + nodeColors[d];
+    });
+//    nodeGroupInfo.append("span").text(function (d) {return d}, "span");
+    nodeGroupInfo.append("span").text(function (d) {return "Researchers"}, "span"); //hard code
+
+
+    var edgeInfo = d3.select(".edges-info")
+        .selectAll("li")
+        .data(d3.keys(edgeColors))
+        .enter()
+        .append("li");
+    edgeInfo.append("em").attr("style", function (d) {
+         return "background: " + edgeColors[d];
+    });
+//    edgeInfo.append("span").text(function (d) {return d}, "span");
+    edgeInfo.append("span").text(function (d) {return "Citations"}, "span");
+
+
+    d3.json("{{ static_dir }}data/network.json", function(error, graph) {
+        graphSource = graph;
+        loadGraph();
+    });
+
+    function loadGraph() {
+        link = svg
+            .selectAll(".link")
+            .data(graphSource.links)
+            .enter()
+            .append("path")
+            .attr("class", "link")
+            .attr("fill", "none")
+            .attr("stroke", function(d) { return edgeColors[d.name] })
+            .attr("d", function(d) {
+                var dx = graphSource.nodes[d.target].x - graphSource.nodes[d.source].x,
+                    dy = graphSource.nodes[d.target].y - graphSource.nodes[d.source].y,
+                    dr = Math.sqrt(dx * dx + dy * dy);
+                return ("M" + graphSource.nodes[d.source].x + "," + graphSource.nodes[d.source].y 
+                        + "A" + dr + "," + dr + " 0 0,1 " + graphSource.nodes[d.target].x + "," 
+                        + graphSource.nodes[d.target].y);
+            });
+
+        node = svg
+              .selectAll(".node")
+              .data(graphSource.nodes)
+              .enter().append("g")
+              .attr("class", "node")
+              .attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+              .on('click', function (d) {
+                    window.location = '#' + locationHashMapping[d.group] + ":" + d.name;
+                    catchLocationHash()
+            });
+
+        node.append("circle")
+            .attr("r", function(d) { return d.w; })
+            .style("fill", function(d) { return nodeColors[d.group] });
+        
+
+        node.append("text")
+            .attr("class", function (d) {
+                return d.w > 20 ? "huge":"small";
+            })
+            .attr("dy", "0.3em")
+            .attr("dx", 0)
+            .style("text-anchor", "middle")
+            .style("font-size", function (d) {
+            	return "10px";
+                if (d.w > 20) {
+                    ss=(20 - d.name.length);
+                    return ss
+                } else {
+                    return 6;
+                }
+            })
+            .text(function(d) { 
+                //Custom node text formatting from RITCHIE J-NO PUB-* to RITCHIE J-NO
+            	label=d.name;
+            	var label = d.name.replace(/ PUB.*/i, "");
+            	var label2 = d.name.replace(/.* PUB/i, "PUB");
+            	d.label=label;
+            	d.label2=label2;
+
+            	return label;
+            	//return d.name.substring(0, 20);
+
+            });
+
+
+        catchLocationHash(true);
+    }
+
+    function selectNode(d, focus) {
+        blurNodes();
+        node.attr("class", "node background");
+        
+        d3.select(this).attr("class", "node hover");
+        
+        
+        //Restore all node names
+        d3.selectAll(".node").each(function (d) {
+              d3.select(this).select('text').text(d.label); //restore
+        });
+        // Set clicked on node name
+        d3.select(this).select("text").text(function(d){ return d.name}); // Show full publication info on click
+
+        link.filter(function (_d) {
+            return _d.source == graphSource.nodes.indexOf(d)
+        })
+        .attr("class", "link hover")
+        .each(function (_d) {
+            node.filter(function (_n) {
+                return _n.id == graphSource.nodes[_d.target].id
+            })
+            .attr("class", "node hover")
+            ;
+            
+        });
+        
+
+        if (focus) {
+            var coordinates = null;
+            node.each(function (_n) {
+                if (_n.id == d.id) {
+                    coordinates = [_n.x, _n.y];
+                }
+            });
+            if (coordinates) {
+
+                var x = (coordinates[0] * -1) + width / 2;
+                var y = (coordinates[1] * -1) + height / 2;
+
+                zoomer.translate([x, y]);
+                zoomer.scale(1);
+
+                svg.transition()
+                   .attr("transform", "translate(" + x + ", " + y + ") scale(1)");
+
+            }
+        }
+    }
+
+    function zoom() {
+        svg.attr("transform", "translate(" + d3.event.translate + ") scale(" + d3.event.scale + ")");
+    }
+
+    function blurNodes() {
+        node.attr("class", "node");
+        link.attr("class", "link");
+    }
+
+    rect.on('click', blurNodes);
+
+    function catchLocationHash(focus) {
+        var hash = location.hash;
+        if (hash && hash.indexOf(":") > 0) {
+            var group = null,
+                hashParts = hash.substr(1).split(":");
+            for (var key in locationHashMapping) {
+                if (locationHashMapping[key] == hashParts[0]) {
+                    group = key;
+                }
+            }
+            if (!group) {
+                return false;
+            }
+            d3.selectAll(".node").each(function (d) {
+            	hashParts[1]=hashParts[1].replace(/%20/g," ");
+                if (d.group == group && d.name == hashParts[1]) {
+                    selectNode.call(this, d, focus);
+                }
+            })
+        }
+    }
+
+    window.addEventListener("hashchange", catchLocationHash.bind(this, false), false);
+
+    d3.select(".search").on("keyup", function () {
+        if (!this.value) {
+            blurNodes();
+            return;
+        }
+
+        var matches = fuzzy
+            .filter(this.value,
+                    d3.selectAll('.node')[0],
+                    { extract: function (x) { return x.textContent; } })
+            .sort(function (a, b) {
+                a.ratio = a.score / a.string.length;
+                b.ratio = b.score / b.string.length;
+                if (a.ratio > b.ratio) {
+                    return -1;
+                }
+                if (a.ratio < b.ratio) {
+                    return 1;
+                }
+                return 0;
+            });
+
+        if (matches.length > 0) {
+            d3.selectAll(".node").each(function (d) {
+                if (d.name == matches[0].string) {
+                    selectNode.call(this, d, true);
+                }
+            });
+        }
+    });
+</script>
+
+   
+</body>
+</html>

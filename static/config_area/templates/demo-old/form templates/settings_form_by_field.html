@@ -1,0 +1,91 @@
+{% extends 'demo/base.html' %}
+
+{% load bootstrap3 %}
+
+{% block title %}
+    Custom Domain Parsing Rules
+{% endblock %}
+
+{% block content %}
+
+     <ol>
+      {% for book in page_obj %}
+        <li>{{ book.title }}</li>
+      {% endfor %}
+    </ol>
+    
+    <form role="form" method="post">
+        {% csrf_token %}
+        {% bootstrap_form_errors form type='non_fields' %}
+
+        {% bootstrap_field form.domain_regex layout='horizontal' size='sm' %}
+        {% bootstrap_field form.include_list layout='horizontal' size='sm' %}
+        {% bootstrap_field form.remove_list layout='horizontal' size='sm' %}
+
+        {% buttons submit='OK' reset="Cancel" %}
+        {% endbuttons %}
+        
+        <h2>DB list:</h2>
+            <ul>
+                {% for site_configs in config_list %}
+                    <li>{{ site_configs.domain_regex }}</li>
+                    <li>{{ site_configs.include_list }}</li>
+                    <li>{{ site_configs.remove_list  }}</li>
+                {% endfor %}
+            </ul>
+
+    </form>
+    
+    
+ <link href="//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.css" rel="stylesheet" /> 
+ <script src="//cdn.datatables.net/plug-ins/be7019ee387/integration/bootstrap/3/dataTables.bootstrap.js"></script> 
+
+<table class="table table-striped table-bordered datatable" data-source-url="{{ url }}" data-result-counter-id="{{ result_counter_id }}">
+    <thead>
+        <tr>
+            {% for name, attributes in column_info %}
+            <th data-name="{{ name|slugify }}"{{ attributes|safe }}>{{ name }}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+</table>
+
+    
+    
+    
+    
+<!--    ERRORS<br>
+    {% for field in form %}
+    <div class="fieldWrapper">
+        {{ field.errors }}
+        {{ field.label_tag }} {{ field }}
+    </div>
+    {% endfor %}
+-->
+
+{% endblock %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12 col-md-12">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <table id="glucose_table" class="display responsive" width="100%">
+                        <thead>
+                            <tr>
+                                <th class="all"><center>Value</center></th>
+                                <th class="all">Category</th>
+                                <th class="min-tablet">Date</th>
+                                <th class="min-tablet">Time</th>
+                                <th class="min-desktop">Notes</th>
+                                <th class="min-desktop">Tags</th>
+                                <th class="all"></th>
+                            </tr>
+                        </thead>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    

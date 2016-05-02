@@ -1,0 +1,21 @@
+{% load example_app_tags %}
+{% load url from future %}
+{% load bootstrap3 %}
+
+
+    {% block static %}
+ 
+    {% endblock static %}
+
+
+{% block bootstrap3_content %}
+    <div class="container">
+        <h1>{% block title %}Custom Domain Parsing Settings{% endblock %}</h1>
+
+        {% bootstrap_messages %}
+
+        {% block content %}(no content){% endblock %}
+    </div>
+
+{% endblock %}
+
