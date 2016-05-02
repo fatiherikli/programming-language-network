@@ -923,8 +923,8 @@
         }, 
         {
             "source": 7, 
-            "target": 36, 
-            "value": 117.0, 
+            "target": 18, 
+            "value": 47.0, 
             "name": "Mentions"
         }, 
         {
@@ -935,8 +935,8 @@
         }, 
         {
             "source": 7, 
-            "target": 18, 
-            "value": 47.0, 
+            "target": 36, 
+            "value": 117.0, 
             "name": "Mentions"
         }, 
         {
@@ -1409,8 +1409,8 @@
         }, 
         {
             "source": 12, 
-            "target": 36, 
-            "value": 17.0, 
+            "target": 18, 
+            "value": 49.0, 
             "name": "Mentions"
         }, 
         {
@@ -1421,8 +1421,8 @@
         }, 
         {
             "source": 12, 
-            "target": 18, 
-            "value": 49.0, 
+            "target": 36, 
+            "value": 17.0, 
             "name": "Mentions"
         }, 
         {
@@ -2195,8 +2195,8 @@
         }, 
         {
             "source": 18, 
-            "target": 36, 
-            "value": 14.0, 
+            "target": 18, 
+            "value": 24.0, 
             "name": "Mentions"
         }, 
         {
@@ -2207,8 +2207,8 @@
         }, 
         {
             "source": 18, 
-            "target": 18, 
-            "value": 24.0, 
+            "target": 36, 
+            "value": 14.0, 
             "name": "Mentions"
         }, 
         {
